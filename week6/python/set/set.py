@@ -93,11 +93,11 @@
 
 # exersice 10
 
-def symmetric_difference(lst1, lst2):
-    new_list = list(set(lst1 + lst2))
-    for num in lst1:
-        if num in lst2:
-            new_list.remove(num)
-    return sorted(new_list)
-
-print(symmetric_difference([1, 2, 3, 4], [3, 4, 5, 6]))
+# def symmetric_difference(lst1, lst2):
+#     new_list = list(set(lst1 + lst2))
+#     for num in lst1:
+#         if num in lst2:
+#             new_list.remove(num)
+#     return sorted(new_list)
+#
+# print(symmetric_difference([1, 2, 3, 4], [3, 4, 5, 6]))
